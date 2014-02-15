@@ -1,0 +1,36 @@
+﻿.ac-left-ct {
+  float:left;
+  width:600px;
+  border-right:1px solid gray;
+}
+
+.ac-right-ct {
+  float:right;
+  width: -moz-calc(100% - 601px);
+  width: -webkit-calc(100% - 601px);
+  width: -o-calc(100% - 601px);
+  width: calc(100% - 601px);
+}
+
+.ac-toobar {
+  background:#cccccc;
+  padding:10px;
+}
+
+.ac-img-container {
+  width:100%;
+  height:400px;
+}
+.ac-img-container .ac-img {
+  width:100px;
+  height:100px;
+  float:left;
+  margin-left:10px;
+  margin-top:10px;
+  border:1px solid silver;
+  cusor:pointer;
+}
+
+.hidden {
+  display:none;
+}
